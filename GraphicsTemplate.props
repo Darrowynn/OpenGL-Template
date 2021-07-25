@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Luke\Documents\Visual Studio 2019\Libraries\glew-2.1.0-win32\glew-2.1.0\include;C:\Users\Luke\Documents\Visual Studio 2019\Libraries\glm;C:\Users\Luke\Documents\Visual Studio 2019\Libraries\glfw-3.3.4.bin.WIN64\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\Luke\Documents\Visual Studio 2019\Libraries\glew-2.1.0-win32\glew-2.1.0\bin\Release\x64;C:\Users\Luke\Documents\Visual Studio 2019\Libraries\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64;C:\Users\Luke\Documents\Visual Studio 2019\Libraries\glfw-3.3.4.bin.WIN64\lib-vc2015;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glew32s.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
